@@ -1,0 +1,30 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2018-01-29-16-01-20
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1517220980.022295	CZzNKw3w06Yd23a8Rg	192.168.85.172	36922	54.72.9.51	80	1	-	http://nwjs.io	-	-	1.1	-	0	311	302	Found	-	-	(empty)	-	-	-	-	-	-	FAIt6Y3LS7oXtFHXE2	-	text/html
+1517220980.925658	Clrjfg3DIuB81jfJ69	192.168.85.172	36926	151.101.0.204	80	1	-	textspeier.de	-	-	1.1	-	0	292	404	Not Found	-	-	(empty)	-	-	-	-	-	-	FgpRteGQ9Zk4TS1yd	-	text/html
+1517220981.269811	CZzNKw3w06Yd23a8Rg	192.168.85.172	36922	163.172.81.35	80	2	-	photoscape.ch/Setup.exe	-	-	1.1	-	0	309	302	Found	-	-	(empty)	-	-	-	-	-	-	FcEqC92IU1qq6wGaZi	-	text/html
+1517220981.596195	Clrjfg3DIuB81jfJ69	192.168.85.172	36926	151.101.0.204	80	2	-		alegroup.info/ntnrrhst	-	-	1.1	-	0	0	304	Not Modified	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1517221279.902369	C2qyUK1HKeptFtrj8	192.168.85.172	42102	163.172.81.35	80	1	-	fourthgate.org/Yryzvt	-	-	1.1	-	0	8	200	OK	-	-	(empty)	-	-	-	-	-	-	FinzRN3E8gHt0c1yGf	-	-
+1517221280.077374	C2qyUK1HKeptFtrj8	192.168.85.172	42102	104.27.163.228	80	2	-	-	-	-	1.1	-	0	8	200	OK	-	-	(empty)	-	-	-	-	-	-	FICvIN3Od8HsvYRLIi	-	-
+1517221281.837973	C2qyUK1HKeptFtrj8	192.168.85.172	42102	151.101.0.204	80	3	-	-	-	-	1.1	-	0	8	200	OK	-	-	(empty)	-	-	-	-	-	-	F2GpTO1wlh8ao3cJM4	-	-
+1517221317.533902	CavfdGyBgywV0txA3	192.168.85.172	47924	117.18.237.29	80	1	-	-	-	-	1.1	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FEe4HafXWeFEFxIf6	-	application/ocsp-response
+1517221103.610265	Chracz1TFzyZsRXRgk	192.168.85.172	50358	128.61.240.73	80	1	-	-	-	-	1.1	-	0	5271	206	Partial Content	-	-	(empty)	-	-	-	-	-	-	FxQ0723o9g8adsgrL	-	-
+1517221689.380724	CYFwmV2GQacveNcVo6	192.168.85.172	42132	202.166.193.14	80	1	-	-	-	-	1.1	-	0	8	200	OK	-	-	(empty)	-	-	-	-	-	-	FxhTfXJwLRqFOxI55	-	-
+1517221689.427065	CYFwmV2GQacveNcVo6	192.168.85.172	42132	202.166.193.14	80	2	-	-	-	-	1.1	-	0	8	200	OK	-	-	(empty)	-	-	-	-	-	-	F1ez072AdEyGIMb1t6	-	-
+1517221690.782468	CYFwmV2GQacveNcVo6	192.168.85.172	42132	202.166.193.14	80	3	-	-	-	-	1.1	-	0	8	200	OK	-	-	(empty)	-	-	-	-	-	-	F23er1342VXGY01rbg	-	-
+1517222278.177775	C3v3qT1lr8p1Dzn16j	192.168.85.172	35860	72.21.91.29	80	1	-	-	-	-	1.1	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FfVoA54q8IwxUEtcH5	-	application/ocsp-response
+1517222278.325175	C3v3qT1lr8p1Dzn16j	192.168.85.172	35860	72.21.91.29	80	2	-	-	-	-	1.1	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FgF1sn2KtrXZTV0Xmh	-	application/ocsp-response
+1517222280.929655	C3v3qT1lr8p1Dzn16j	192.168.85.172	35860	72.21.91.29	80	3	-	-	-	-	1.1	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FfWeEm48ZXDrFYlnRh	-	application/ocsp-response
+1517222281.106426	C3v3qT1lr8p1Dzn16j	192.168.85.172	35860	72.21.91.29	80	4	-	-	-	-	1.1	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FGj3h44ugCLKwYEJNa	-	application/ocsp-response
+1517222281.130421	CLddxEjuQhIzdHIEj	192.168.85.172	35882	54.72.9.51	80	1	-	-	-	-	1.1	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FyAea14Byq9EYyc16k	-	application/ocsp-response
+1517222281.138326	CwuKmF4Pc9eSGc2Ije	192.168.85.172	35880	84.200.4.125	80	1	-	-	-	-	1.1	-	0	471	200	OK	-	-	(empty)	-	-	-	-	-	-	FbXO7nDU7sJszOJA1	-	application/ocsp-response
+1517220980.022295       CZzNKw3w06Yd23a8Rg      192.168.85.172  36922   151.101.0.204   80      1       -       http://nwjs.io  -       -       1.1     -       0      $
+1517220980.022295       CZzNKw3w06Yd23a8Rg      192.168.85.172  36922   151.101.0.204   80      1       -       http://nwjs.io  -       -       1.1     -       0      $
+1517220980.022295       CZzNKw3w06Yd23a8Rg      192.168.85.172  36922   151.101.0.204   80      1       -       http://nwjs.io  -       -       1.1     -       0      $
+
