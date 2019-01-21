@@ -6,7 +6,7 @@ from datetime import datetime
 from slackclient import SlackClient
 
 __authors__ = "Nishan Maharjan"
-s = SlackClient("xoxb-325104983714-KArhOLsscyh4cqOcvWBY9Ezw")
+s = SlackClient("api key here")
 
 def alerts(results,L,c):
         msg = "SURICATA-LOGS\n"
@@ -29,7 +29,6 @@ def alerts(results,L,c):
 	msg = msg + "\n\n"
 	c.h1("\n\nIDS_ALERTS")
 	c.p(msg)
-        #mail.sendmail("rigobot01@gmail.com","nishanmaharjan17@gmail.com",msg)
         s.api_call("chat.postMessage",channel='project',text=msg)
         return L
 
