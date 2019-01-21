@@ -6,7 +6,7 @@ import json
 from slackclient import SlackClient
 
 def search_brute_force(c):
-	s = SlackClient("xoxb-325104983714-KArhOLsscyh4cqOcvWBY9Ezw")
+	s = SlackClient("api key here")
 
 	try:
         	es = Elasticsearch('localhost:9200')  # trying to connect to the elastic server
