@@ -6,7 +6,7 @@ from slackclient import SlackClient
 
 def corelation(c):
 	c.h1("\n\nCORELATION\n\n")
-	s = SlackClient("xoxb-325104983714-KArhOLsscyh4cqOcvWBY9Ezw")
+	s = SlackClient("api key here")
 	es = Elasticsearch("127.0.0.1:9200")
 	body = {
                "query": {
@@ -17,7 +17,7 @@ def corelation(c):
                   }
                 }
               }
-#result = es.search(index="rigo-2017.12.31",size=1000,body = body)
+#result = es.search(index=,size=1000,body = body)
 	results = helpers.scan(es,query=body,index='malicious_website')
 	malicious_website_ip = []
 	talos_ip = []
