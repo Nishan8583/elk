@@ -5,7 +5,7 @@ import time
 from slackclient import SlackClient
 
 def scan_files(c):
-	s = SlackClient("xoxb-325104983714-KArhOLsscyh4cqOcvWBY9Ezw")
+	s = SlackClient("api key here")
 	c.h1("\n\nMaliciou Files Downloaded")
 	message = ""
 	malicious_files_downloaded = []
